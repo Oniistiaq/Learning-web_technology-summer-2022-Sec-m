@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <fieldset>
+        <form method="post" action="regCheck.php">
+            <legend>REGISTRATION</legend>
+            Id
+            <input type="text" name="regId" value="" /><br/>
+            Password
+            <input type="text" name="regPass" value="" /><br/>
+            Confirm Password
+            <input type="text" name="regConfirmPass" value="" /><br/>
+            Name
+            <input type="text" name="regName" value="" /><br/>
+            User Type<br/>
+            <hr/>
+            <input type="radio" id="user" name="regType" value="User">
+            <label for="user">User</label>
+            <input type="radio" id="admin" name="regType" value="Admin"><br/>
+            <label for="admin">Admin</label>
+            <hr/>
+            <input type="submit" name="submit" value="Submit" />
+            <a href="Login.html">Sign In</a>
+        </form>
+    </fieldset>
+</body>
+</html>
